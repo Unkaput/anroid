@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/osn"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="38dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Welcome Back You’ve Been Missed!"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="MissingConstraints,TextSizeCheck"
+            tools:layout_editor_absoluteX="93dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:fontFamily="@font/ABeeZee"
+            android:text="Hello Again!"
+            android:textSize="34dp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="106dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ABeeZee"
+            android:text="Email Address"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.694"
+            tools:ignore="MissingConstraints,TextSizeCheck"
+            tools:layout_editor_absoluteX="36dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ABeeZee"
+            android:text="Password"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.47"
+            tools:ignore="MissingConstraints,TextSizeCheck"
+            tools:layout_editor_absoluteX="42dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="107dp"
+            android:layout_height="24dp"
+            android:fontFamily="@font/ABeeZee"
+            android:text="Sign Up for free"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.875"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="691dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="171dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="36dp"
+            android:fontFamily="@font/ABeeZee"
+            android:text="Don’t have an account?"
+            app:layout_constraintEnd_toStartOf="@+id/textView7"
+            app:layout_constraintHorizontal_bias="0.098"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="692dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/Button"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:layout_constraintVertical_bias="0.62"
+            tools:layout_editor_absoluteX="38dp"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Sign in with Google Button -->
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/Button"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="375dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="363dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="68dp"
+            android:background="@drawable/rounded_button1"
+            android:backgroundTint="#5B9EE1"
+            android:cornerRadius="25dp"
+            android:fontFamily="@font/ABeeZee"
+            android:padding="16dp"
+            android:text="Sign In"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/sign_in_with_google_button"
+            tools:layout_editor_absoluteX="24dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/sign_in_with_google_button"
+            android:layout_width="362dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/rounded_button1"
+            android:backgroundTint="#FFFFFF"
+            android:drawableStart="@drawable/google"
+            android:fontFamily="@font/ABeeZee"
+            android:padding="16dp"
+            android:text="Sign in with google"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="24dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eye"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            tools:layout_editor_absoluteY="388dp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:hint="Name"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="270dp" />
+
+        <EditText
+            android:hint="********"
+            android:id="@+id/editTextText4"
+            android:layout_width="332dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            android:background="@android:color/transparent"
+
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="375dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

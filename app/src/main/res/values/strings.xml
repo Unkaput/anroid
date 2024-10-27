@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">anroid</string>
+
+
+        <string name="menu_description">Menu</string>
+        <string name="shopping_cart_description">Shopping Cart</string>
+        <string name="nike_description">Nike</string>
+        <string name="puma_description">Puma</string>
+        <string name="brand_52_description">Brand 52</string>
+        <string name="adidas_description">Adidas</string>
+        <string name="converse_description">Converse</string>
+        <string name="home_description">Home</string>
+        <string name="favorite_description">Favorite</string>
+        <string name="notifications_description">Notifications</string>
+        <string name="user_description">User</string>
+
+
+</resources>
